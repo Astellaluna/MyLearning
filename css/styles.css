@@ -16,7 +16,8 @@
     margin: 15px;
   }
 
-.background-basecolor {
+.bodyclass {
+  font-family: cursive;
   color:"#F5F5DC"
 }
 
