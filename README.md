@@ -1,4 +1,4 @@
-# MyLearning
-A simple web I built using HTML, CSS, and Javascript to learn the basic that will allow me to career shift to the IT field.
+# StudyWebDev
+A simple web I built using HTML, CSS, and Javascript to learn the basics.
 
 tldr; Didn't use tools like Tailwind CSS. 

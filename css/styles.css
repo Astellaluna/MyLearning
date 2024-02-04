@@ -1,8 +1,37 @@
-.NavSpace {
-    font-size: 110%;
-    margin-right: 15px;
-    margin-left: 15px;
+.header {
+  background-image: url("../images/headerbg.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size:xx-large;
+  color: rgb(255, 255, 255);
+  text-shadow: 
+  3px 3px 2px rgb(77, 77, 77),
+  -3px 3px 2px rgb(77, 77, 77),
+  -3px -3px 0 rgb(77, 77, 77),
+  3px -3px 0 rgb(77, 77, 77);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(160, 133, 112);
   }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 224, 199);
+}
+
 .SectionStyle {
     margin: 25px;
   }
@@ -18,9 +47,7 @@
 
 .bodyclass {
   font-family: cursive;
-  color:"#F5F5DC"
+  background-color: rgb(228, 188, 156);
 }
 
-span z {
-    font-size: 70%;
-  }
+
