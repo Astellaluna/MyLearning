@@ -2,84 +2,42 @@
   background-image: url("../images/headerbg.png");
   background-repeat: no-repeat;
   background-size:cover;
-  padding: 50px;
+  width: 100%;
+  margin-top: 45px;
+  padding: 100px;
   color: rgb(255, 255, 255);
-  font:
-    2em Helvetica, sans-serif;
-  text-align: center;
-  text-shadow: 
-  3px 3px 2px rgb(77, 77, 77),
-  -3px 3px 2px rgb(77, 77, 77),
-  -3px -3px 0 rgb(77, 77, 77),
-  3px -3px 0 rgb(77, 77, 77);
 }
 
-.topnav {
-  overflow: hidden;
+#navbar {
+  display: block;
+  font: 1em Helvetica;
+  width: 100%;
+  position: fixed;
+  top: 0em;
+  left: -0.1em;
+  z-index: 1;
   background-color: rgb(160, 133, 112);
-  }
+}
 
-.topnav a {
+#navbar a {
   float: left;
   display: block;
   color: rgb(44, 39, 35);
+  font: Helvetica, sans-serif;
   text-align: center;
   font-weight: bold;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.topnav a:hover,  .dropdown:hover .dropbtn{
+#navbar a:hover {
   background-color: rgb(255, 224, 199);
 }
 
-.current {
+#current {
   overflow: hidden;
   background-color: rgb(255, 224, 199);;
   }
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn{
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: rgb(44, 39, 35);
-  font-weight: bold;
-  padding: 14px 16px;
-  font-family: inherit;
-  background-color: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgb(255, 224, 199);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgb(0, 0, 0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a{
-  float: none;
-  color: rgb(0, 0, 0);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: rgb(255, 255, 255);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 .bodyclass {
   background-color: rgb(228, 188, 156);
@@ -88,7 +46,8 @@
 .interiorshop {
   float: left;
   opacity: 0.9;
-  padding: 30px;
+  padding: 50px;
+  margin-top: 50px;
   width: clamp(200px, 50%, 800px);
   border-radius: 50%;
 }
